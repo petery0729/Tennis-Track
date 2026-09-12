@@ -40,7 +40,7 @@ The project targets iPhone only and supports portrait orientation.
 
 ## Getting Started
 
-Note: It's recommended to try out the App through iOS App Store for a quick, easy test.
+Note: It's recommended to try out the app on the iOS App Store for a quick, easy test.
 
 1. Clone or download this repository.
 2. Open `Tennis Counter.xcodeproj` in Xcode.
