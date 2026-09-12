@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F60569A62AFF703C0007F4E9 /* Tennis_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60569A52AFF703C0007F4E9 /* Tennis_CounterApp.swift */; };
+		F60569A82AFF703C0007F4E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60569A72AFF703C0007F4E9 /* ContentView.swift */; };
+		F60569AA2AFF703C0007F4E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60569A92AFF703C0007F4E9 /* Assets.xcassets */; };
+		F60569AD2AFF703C0007F4E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60569AC2AFF703C0007F4E9 /* Preview Assets.xcassets */; };
+		F65CDBC12CF667FA001E6CA5 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65CDBC02CF667FA001E6CA5 /* SwiftUIView.swift */; };
+		F6BBFA8E2C23716A00416182 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBFA8D2C23716900416182 /* FormView.swift */; };
+		F6BBFA902C24010000416182 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBFA8F2C24010000416182 /* ButtonView.swift */; };
+		F6BBFA922C24D92200416182 /* ServePercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBFA912C24D92200416182 /* ServePercentView.swift */; };
+		F6BBFA942C3C3B6F00416182 /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBFA932C3C3B6F00416182 /* StatView.swift */; };
+		F6BBFA982C4EAEE800416182 /* NewMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBFA972C4EAEE800416182 /* NewMatchView.swift */; };
+		F6BBFA9A2C4EE5B200416182 /* PastMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBFA992C4EE5B100416182 /* PastMatchView.swift */; };
+		F6BBFA9C2C4FDB9D00416182 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBFA9B2C4FDB9D00416182 /* ViewModel.swift */; };
+		F6BBFA9E2C50F75900416182 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBFA9D2C50F75900416182 /* GraphView.swift */; };
+		F6BBFAA02C513D7C00416182 /* NewStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBFA9F2C513D7C00416182 /* NewStatisticsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F69C23D82CAB13B300ED7506 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		F60569A22AFF703C0007F4E9 /* Tennis Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tennis Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60569A52AFF703C0007F4E9 /* Tennis_CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tennis_CounterApp.swift; sourceTree = "<group>"; };
+		F60569A72AFF703C0007F4E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F60569A92AFF703C0007F4E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F60569AC2AFF703C0007F4E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F65CDBC02CF667FA001E6CA5 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		F6BBFA8D2C23716900416182 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		F6BBFA8F2C24010000416182 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		F6BBFA912C24D92200416182 /* ServePercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServePercentView.swift; sourceTree = "<group>"; };
+		F6BBFA932C3C3B6F00416182 /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
+		F6BBFA972C4EAEE800416182 /* NewMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMatchView.swift; sourceTree = "<group>"; };
+		F6BBFA992C4EE5B100416182 /* PastMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastMatchView.swift; sourceTree = "<group>"; };
+		F6BBFA9B2C4FDB9D00416182 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F6BBFA9D2C50F75900416182 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		F6BBFA9F2C513D7C00416182 /* NewStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStatisticsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F605699F2AFF703C0007F4E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F60569992AFF703B0007F4E9 = {
+			isa = PBXGroup;
+			children = (
+				F60569A42AFF703C0007F4E9 /* Tennis Counter */,
+				F60569A32AFF703C0007F4E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F60569A32AFF703C0007F4E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F60569A22AFF703C0007F4E9 /* Tennis Counter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F60569A42AFF703C0007F4E9 /* Tennis Counter */ = {
+			isa = PBXGroup;
+			children = (
+				F60569A52AFF703C0007F4E9 /* Tennis_CounterApp.swift */,
+				F60569A72AFF703C0007F4E9 /* ContentView.swift */,
+				F65CDBC02CF667FA001E6CA5 /* SwiftUIView.swift */,
+				F6BBFA972C4EAEE800416182 /* NewMatchView.swift */,
+				F6BBFA9F2C513D7C00416182 /* NewStatisticsView.swift */,
+				F6BBFA992C4EE5B100416182 /* PastMatchView.swift */,
+				F6BBFA9D2C50F75900416182 /* GraphView.swift */,
+				F6BBFA912C24D92200416182 /* ServePercentView.swift */,
+				F6BBFA9B2C4FDB9D00416182 /* ViewModel.swift */,
+				F6BBFA932C3C3B6F00416182 /* StatView.swift */,
+				F6BBFA8F2C24010000416182 /* ButtonView.swift */,
+				F6BBFA8D2C23716900416182 /* FormView.swift */,
+				F60569A92AFF703C0007F4E9 /* Assets.xcassets */,
+				F60569AB2AFF703C0007F4E9 /* Preview Content */,
+			);
+			path = "Tennis Counter";
+			sourceTree = "<group>";
+		};
+		F60569AB2AFF703C0007F4E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F60569AC2AFF703C0007F4E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F60569A12AFF703C0007F4E9 /* Tennis Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60569B02AFF703C0007F4E9 /* Build configuration list for PBXNativeTarget "Tennis Counter" */;
+			buildPhases = (
+				F605699E2AFF703C0007F4E9 /* Sources */,
+				F605699F2AFF703C0007F4E9 /* Frameworks */,
+				F60569A02AFF703C0007F4E9 /* Resources */,
+			);
+			buildRules = (
+				F69C23D82CAB13B300ED7506 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = "Tennis Counter";
+			productName = "Tennis Counter";
+			productReference = F60569A22AFF703C0007F4E9 /* Tennis Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F605699A2AFF703B0007F4E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F60569A12AFF703C0007F4E9 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F605699D2AFF703B0007F4E9 /* Build configuration list for PBXProject "Tennis Counter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F60569992AFF703B0007F4E9;
+			productRefGroup = F60569A32AFF703C0007F4E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F60569A12AFF703C0007F4E9 /* Tennis Counter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F60569A02AFF703C0007F4E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60569AD2AFF703C0007F4E9 /* Preview Assets.xcassets in Resources */,
+				F60569AA2AFF703C0007F4E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F605699E2AFF703C0007F4E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BBFA942C3C3B6F00416182 /* StatView.swift in Sources */,
+				F6BBFAA02C513D7C00416182 /* NewStatisticsView.swift in Sources */,
+				F65CDBC12CF667FA001E6CA5 /* SwiftUIView.swift in Sources */,
+				F60569A82AFF703C0007F4E9 /* ContentView.swift in Sources */,
+				F60569A62AFF703C0007F4E9 /* Tennis_CounterApp.swift in Sources */,
+				F6BBFA982C4EAEE800416182 /* NewMatchView.swift in Sources */,
+				F6BBFA922C24D92200416182 /* ServePercentView.swift in Sources */,
+				F6BBFA9E2C50F75900416182 /* GraphView.swift in Sources */,
+				F6BBFA902C24010000416182 /* ButtonView.swift in Sources */,
+				F6BBFA9A2C4EE5B200416182 /* PastMatchView.swift in Sources */,
+				F6BBFA8E2C23716A00416182 /* FormView.swift in Sources */,
+				F6BBFA9C2C4FDB9D00416182 /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F60569AE2AFF703C0007F4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F60569AF2AFF703C0007F4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F60569B12AFF703C0007F4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tennis Counter/Preview Content\"";
+				DEVELOPMENT_TEAM = SUAT7VQQFS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tennis Counter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peter-Yavichev.Tennis-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F60569B22AFF703C0007F4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tennis Counter/Preview Content\"";
+				DEVELOPMENT_TEAM = SUAT7VQQFS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tennis Counter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peter-Yavichev.Tennis-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F605699D2AFF703B0007F4E9 /* Build configuration list for PBXProject "Tennis Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60569AE2AFF703C0007F4E9 /* Debug */,
+				F60569AF2AFF703C0007F4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F60569B02AFF703C0007F4E9 /* Build configuration list for PBXNativeTarget "Tennis Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60569B12AFF703C0007F4E9 /* Debug */,
+				F60569B22AFF703C0007F4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F605699A2AFF703B0007F4E9 /* Project object */;
+}
