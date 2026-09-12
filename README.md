@@ -2,7 +2,7 @@
 
 Tennis Counter is an iPhone app for recording tennis matches point by point and reviewing detailed match statistics afterward. It was built with SwiftUI and uses Apple’s Charts framework to visualize performance and momentum.
 
-The app is published on the **iOS App Store** in **2024** as **Tennis Track**; **Tennis Counter** is the old repository and project name.
+The app was published on the **iOS App Store** in **2024** as **Tennis Track**; **Tennis Counter** is the old repository and project name.
 
 ## Features
 
